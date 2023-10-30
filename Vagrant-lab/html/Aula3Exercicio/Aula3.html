@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt/BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03 Serratec - Fronto End Essencial</title>
+    <style>
+        p{
+            text-transform: uppercase;
+        }
+
+        .important{
+            background-color: lightcoral;
+        }
+
+        h1{
+            position: relative;
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 30px;
+            padding-left: 30px;
+        }
+
+        h1::before{
+            content: "\1f680";
+            font-size: 30px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        li:nth-child(odd) {
+			background-color: lightblue;
+		}
+    </style>
+</head>
+<body>
+
+   
+    <h1>Exemplo de Links</h1>
+    <ul>
+        <li><a href="https://www.google.com.br" title="Google" >Google</a></li>
+        <li><a href="https://www.globo.com" title="Globo" >Globo</a></li>
+        <li><a href="https://www.netflix.com" title="Netflix" >Netflix</a></li>
+    </ul>
+    <ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+		<li>Item 5</li>
+		<li>Item 6</li>
+        <li>Item 7</li>
+		<li>Item 8</li>
+		<li>Item 9</li>
+		<li>Item 10</li>
+	</ul>
+
+    <button disabled >Botão desligado</button>
+    <button>Botão ligado</button>
+
+
+    <p>Este é um parágrafo normal.</p>
+	<p class="important">Este é outro parágrafo com um texto importante.</p>
+	<p>Mais um parágrafo normal.</p>
+	<p class="important">E um último parágrafo com um texto importante.</p>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+#exemplo-border{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 223, 127);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px red;
+}
+#exemplo-border:hover {
+    opacity: 0.1;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    box-shadow: 4px 4px 4px seagreen;
+}
+
+#exemplo-text-shadow{
+    text-shadow: 2px 2px 2px rgb(47, 0, 255);
+    font-family: 'source code pro', monospace;
+    font-weight: 200px;
+}
+
