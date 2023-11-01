@@ -1,0 +1,25 @@
+
+a:link{
+    color: gray;
+}
+a:visited{
+    color: blueviolet;
+}
+
+li:nth-child(odd) {
+    background-color:lightblue;
+}
+
+p{
+    text-transform: uppercase;
+}
+.important{
+    background-color: lightcoral;
+}
+
+button:disabled{
+    background-color: gray;
+}
+button{
+    color: aquamarine;
+}
